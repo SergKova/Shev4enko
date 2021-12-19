@@ -11,7 +11,7 @@ body {
 
 .background {
     position: relative;
-    width: 22rem;
+    width: 20rem;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -60,12 +60,12 @@ body {
     background-color: rgba(0, 0, 0, 0.603);
     bottom: 0;
     left: 0;
-    transition: height ease 1s;
+    transition: height ease-out 1.5s;
 
 }
 
 .background:hover .poem {
-    height: 80%;
+    height: 65%;
 }
 
 
